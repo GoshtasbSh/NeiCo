@@ -1,0 +1,43 @@
+{
+  "store_name": "Walmart",
+  "store_icon_name": "walmart",
+  "user_name": "Carol Lee",
+  "items": [
+    {
+      "id": "cereal",
+      "name": "Multigrain Cereal (box)",
+      "quantity": 1,
+      "price": 3.59
+    },
+    {
+      "id": "orange_juice",
+      "name": "Orange Juice (bottle)",
+      "quantity": 2,
+      "price": 2.49
+    },
+    {
+      "id": "peanut_butter",
+      "name": "Peanut Butter (jar)",
+      "quantity": 1,
+      "price": 4.79
+    },
+    {
+      "id": "cereal",
+      "name": "Multigrain Cereal (box)",
+      "quantity": 1,
+      "price": 3.59
+    },
+    {
+      "id": "orange_juice",
+      "name": "Orange Juice (bottle)",
+      "quantity": 2,
+      "price": 2.49
+    },
+    {
+      "id": "peanut_butter",
+      "name": "Peanut Butter (jar)",
+      "quantity": 1,
+      "price": 4.79
+    }
+  ]
+}

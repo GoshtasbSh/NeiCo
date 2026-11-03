@@ -1,0 +1,12 @@
+<svg width="100" height="100" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+  <!-- Shopping cart -->
+  <path d="M16 16h40l-6 24H22z" fill="none" stroke="black" stroke-width="4"/>
+  <circle cx="24" cy="52" r="4" fill="black"/>
+  <circle cx="48" cy="52" r="4" fill="black"/>
+  <!-- Person 1 -->
+  <circle cx="20" cy="12" r="6" fill="black"/>
+  <rect x="16" y="18" width="8" height="16" fill="black"/>
+  <!-- Person 2 -->
+  <circle cx="36" cy="12" r="6" fill="black"/>
+  <rect x="32" y="18" width="8" height="16" fill="black"/>
+</svg>

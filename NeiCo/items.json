@@ -1,0 +1,41 @@
+[
+  {"id":"aaa11111-1111-1111-1111-111111111111","storeId":"e4f1a9c2-6d7b-4bb8-a13f-2d9f3b5a7c6e","name":"2% Milk, 1 gal","imageName":"milk","price":3.49},
+  {"id":"aaa22222-2222-2222-2222-222222222222","storeId":"e4f1a9c2-6d7b-4bb8-a13f-2d9f3b5a7c6e","name":"Organic Eggs, doz","imageName":"eggs","price":4.99},
+  {"id":"aaa33333-3333-3333-3333-333333333333","storeId":"e4f1a9c2-6d7b-4bb8-a13f-2d9f3b5a7c6e","name":"Cheddar Cheese, 8oz","imageName":"cheese","price":2.79},
+  {"id":"aaa44444-4444-4444-4444-444444444444","storeId":"e4f1a9c2-6d7b-4bb8-a13f-2d9f3b5a7c6e","name":"Whole Wheat Bread","imageName":"bread","price":2.49},
+
+  {"id":"bbb11111-1111-1111-1111-111111111111","storeId":"b8a2d5e4-3f6c-49ac-9f91-8b7c6d5e4a2b","name":"Paper Towels, 6-pack","imageName":"paper_towel","price":7.99},
+  {"id":"bbb22222-2222-2222-2222-222222222222","storeId":"b8a2d5e4-3f6c-49ac-9f91-8b7c6d5e4a2b","name":"Toilet Paper, 12pk","imageName":"toilet_paper","price":12.49},
+  {"id":"bbb33333-3333-3333-3333-333333333333","storeId":"b8a2d5e4-3f6c-49ac-9f91-8b7c6d5e4a2b","name":"Laundry Detergent, 50oz","imageName":"detergent","price":9.99},
+  {"id":"bbb44444-4444-4444-4444-444444444444","storeId":"b8a2d5e4-3f6c-49ac-9f91-8b7c6d5e4a2b","name":"Breakfast Cereal, 18oz","imageName":"cereal","price":4.29},
+
+  {"id":"ccc11111-1111-1111-1111-111111111111","storeId":"c1d2e3f4-5678-4abc-90de-1fa2b3c4d5e6","name":"Bananas, per lb","imageName":"bananas","price":0.59},
+  {"id":"ccc22222-2222-2222-2222-222222222222","storeId":"c1d2e3f4-5678-4abc-90de-1fa2b3c4d5e6","name":"Greek Yogurt, 6oz","imageName":"yogurt","price":1.19},
+  {"id":"ccc33333-3333-3333-3333-333333333333","storeId":"c1d2e3f4-5678-4abc-90de-1fa2b3c4d5e6","name":"Granola Bars, 8-pack","imageName":"granola_bars","price":3.49},
+  {"id":"ccc44444-4444-4444-4444-444444444444","storeId":"c1d2e3f4-5678-4abc-90de-1fa2b3c4d5e6","name":"Mixed Nuts, 12oz","imageName":"mixed_nuts","price":5.99},
+
+  {"id":"ddd11111-1111-1111-1111-111111111111","storeId":"f0e1d2c3-b4a5-6789-0abc-d1e2f3a4b5c6","name":"Rotisserie Chicken","imageName":"chicken","price":6.49},
+  {"id":"ddd22222-2222-2222-2222-222222222222","storeId":"f0e1d2c3-b4a5-6789-0abc-d1e2f3a4b5c6","name":"Bottled Water, 40-pack","imageName":"water","price":4.99},
+  {"id":"ddd33333-3333-3333-3333-333333333333","storeId":"f0e1d2c3-b4a5-6789-0abc-d1e2f3a4b5c6","name":"Tortilla Chips, 32oz","imageName":"chips","price":3.99},
+  {"id":"ddd44444-4444-4444-4444-444444444444","storeId":"f0e1d2c3-b4a5-6789-0abc-d1e2f3a4b5c6","name":"Cola, 24-pack","imageName":"soda","price":8.49},
+
+  {"id":"eee11111-1111-1111-1111-111111111111","storeId":"a1b2c3d4-e5f6-7890-abcd-1e2f3a4b5c6d","name":"Shampoo, 12oz","imageName":"shampoo","price":5.29},
+  {"id":"eee22222-2222-2222-2222-222222222222","storeId":"a1b2c3d4-e5f6-7890-abcd-1e2f3a4b5c6d","name":"Body Wash, 16oz","imageName":"body_wash","price":4.99},
+  {"id":"eee33333-3333-3333-3333-333333333333","storeId":"a1b2c3d4-e5f6-7890-abcd-1e2f3a4b5c6d","name":"Lotion, 8oz","imageName":"lotion","price":3.99},
+  {"id":"eee44444-4444-4444-4444-444444444444","storeId":"a1b2c3d4-e5f6-7890-abcd-1e2f3a4b5c6d","name":"Toothpaste, 6oz","imageName":"toothpaste","price":2.99},
+
+  {"id":"fff11111-1111-1111-1111-111111111111","storeId":"123e4567-e89b-12d3-a456-426614174000","name":"Olive Oil, 2L","imageName":"olive_oil","price":12.99},
+  {"id":"fff22222-2222-2222-2222-222222222222","storeId":"123e4567-e89b-12d3-a456-426614174000","name":"Rice, 25lb","imageName":"rice","price":19.49},
+  {"id":"fff33333-3333-3333-3333-333333333333","storeId":"123e4567-e89b-12d3-a456-426614174000","name":"Almond Milk, 64oz","imageName":"almond_milk","price":5.99},
+  {"id":"fff44444-4444-4444-4444-444444444444","storeId":"123e4567-e89b-12d3-a456-426614174000","name":"Ground Coffee, 2lb","imageName":"coffee","price":14.99},
+
+  {"id":"1111aaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa","storeId":"9abcdef0-1234-5678-9abc-def012345678","name":"Red Apples, per lb","imageName":"apples","price":1.29},
+  {"id":"2222bbbb-bbbb-bbbb-bbbb-bbbbbbbbbbbb","storeId":"9abcdef0-1234-5678-9abc-def012345678","name":"Green Grapes, per lb","imageName":"grapes","price":2.49},
+  {"id":"3333cccc-cccc-cccc-cccc-cccccccccccc","storeId":"9abcdef0-1234-5678-9abc-def012345678","name":"Strawberries, 1lb","imageName":"strawberries","price":3.99},
+  {"id":"4444dddd-dddd-dddd-dddd-dddddddddddd","storeId":"9abcdef0-1234-5678-9abc-def012345678","name":"Bananas, per lb","imageName":"bananas","price":0.65},
+
+  {"id":"5555eeee-eeee-eeee-eeee-eeeeeeeeeeee","storeId":"0fedcba9-8765-4321-ba98-76543210fedc","name":"Organic Kale","imageName":"kale","price":2.99},
+  {"id":"6666ffff-ffff-ffff-ffff-ffffffffffff","storeId":"0fedcba9-8765-4321-ba98-76543210fedc","name":"Spinach, 10oz","imageName":"spinach","price":3.49},
+  {"id":"7777aaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa","storeId":"0fedcba9-8765-4321-ba98-76543210fedc","name":"Avocado, each","imageName":"avocado","price":1.49},
+  {"id":"8888bbbb-bbbb-bbbb-bbbb-bbbbbbbbbbbb","storeId":"0fedcba9-8765-4321-ba98-76543210fedc","name":"Quinoa, 1lb","imageName":"quinoa","price":4.99}
+]

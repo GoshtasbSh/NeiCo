@@ -1,0 +1,25 @@
+{
+  "storeName": "Whole Foods",
+  "storeIconName": "whole_foods",
+  "userName": "Jane Doe",
+  "items": [
+    {
+      "id": "1",
+      "name": "Organic Bananas (bunch)",
+      "quantity": 2,
+      "price": 1.29
+    },
+    {
+      "id": "2",
+      "name": "Almond Milk, Unsweetened (carton)",
+      "quantity": 1,
+      "price": 3.49
+    },
+    {
+      "id": "3",
+      "name": "Free-Range Large Eggs (dozen)",
+      "quantity": 1,
+      "price": 4.99
+    }
+  ]
+}

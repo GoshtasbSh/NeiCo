@@ -1,0 +1,25 @@
+{
+  "store_name": "Publix",
+  "store_icon_name": "publix",
+  "user_name": "Bob Johnson",
+  "items": [
+    {
+      "id": "bread",
+      "name": "Whole Wheat Bread (loaf)",
+      "quantity": 1,
+      "price": 2.99
+    },
+    {
+      "id": "honey",
+      "name": "Wildflower Honey (jar)",
+      "quantity": 1,
+      "price": 6.49
+    },
+    {
+      "id": "yogurt",
+      "name": "Greek Yogurt (tub)",
+      "quantity": 4,
+      "price": 0.99
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.py[cod]
+*.sqlite3
+.env
+# virtual environments
+backend/Neico/
+backend/Neico_dev/
+.venv/
+venv/
+# macOS / Xcode
+.DS_Store
+xcuserdata/
+DerivedData/
+*.xcuserstate

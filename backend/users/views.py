@@ -1,0 +1,15 @@
+# users/views.py
+
+from rest_framework import viewsets
+from rest_framework.permissions import IsAuthenticatedOrReadOnly
+
+from .models import User
+from .serializers import UserSerializer
+
+class UserViewSet(viewsets.ModelViewSet):
+    """
+    list / retrieve / create / update / delete users.
+    """
+    queryset = User.objects.all()
+    serializer_class = UserSerializer
+    permission_classes = [IsAuthenticatedOrReadOnly]

@@ -1,0 +1,14 @@
+[
+  { "id": "e4f1a9c2-6d7b-4bb8-a13f-2d9f3b5a7c6e", "name": "Publix",       "icon": "publix_logo.png" },
+  { "id": "b8a2d5e4-3f6c-49ac-9f91-8b7c6d5e4a2b", "name": "Walmart",      "icon": "walmart.png" },
+  { "id": "c1d2e3f4-5678-4abc-90de-1fa2b3c4d5e6", "name": "Aldi",         "icon": "aldiLogo.png" },
+  { "id": "f0e1d2c3-b4a5-6789-0abc-d1e2f3a4b5c6", "name": "Sam's Club",   "icon": "SamsLogo.png" },
+  { "id": "a1b2c3d4-e5f6-7890-abcd-1e2f3a4b5c6d", "name": "Target",       "icon": "targetLogo.png" },
+  { "id": "123e4567-e89b-12d3-a456-426614174000", "name": "Costco",       "icon": "costcoLogo.png" },
+  { "id": "9abcdef0-1234-5678-9abc-def012345678", "name": "Kroger",       "icon": "krogerLogo.png" },
+  { "id": "0fedcba9-8765-4321-ba98-76543210fedc", "name": "Whole Foods",  "icon": "whole_foodsLogo.png" },
+  { "id": "11112222-3333-4444-5555-666677778888", "name": "Trader Joe's", "icon": "trader_joesLogo.png" },
+  { "id": "99990000-aaaa-bbbb-cccc-ddddeeeeffff", "name": "Safeway",      "icon": "safewayLogo.png" },
+  { "id": "abcdef12-3456-7890-abcd-ef1234567890", "name": "Food Lion",    "icon": "food_lionLogo.png" },
+  { "id": "fedcba98-7654-3210-fedc-ba9876543210", "name": "H-E-B",        "icon": "hebLogo.png" }
+]

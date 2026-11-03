@@ -1,0 +1,1175 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		418F7CBF2DC48CCA0015507D /* stores.json in Resources */ = {isa = PBXBuildFile; fileRef = 418F7CBE2DC48CCA0015507D /* stores.json */; };
+		418F7CEE2DC492930015507D /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418F7CAB2DC487B20015507D /* HomeViewModel.swift */; };
+		418F7CF02DC4929E0015507D /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418F7CBA2DC48B580015507D /* AccountView.swift */; };
+		418F7CF12DC492A20015507D /* MarketPlaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418F7CB82DC48B4F0015507D /* MarketPlaceView.swift */; };
+		418F7CF32DC492A90015507D /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418F7CB42DC48AAA0015507D /* MainTabView.swift */; };
+		418F7CF42DC492AD0015507D /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418F7CAC2DC487CE0015507D /* HomeView.swift */; };
+		418F7CF52DC492BC0015507D /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418F7CA82DC4877D0015507D /* Store.swift */; };
+		418F7CF62DC494C80015507D /* stores.json in Resources */ = {isa = PBXBuildFile; fileRef = 418F7CBE2DC48CCA0015507D /* stores.json */; };
+		418F7D0B2DC49C9F0015507D /* OrdersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418F7D092DC49C8F0015507D /* OrdersView.swift */; };
+		418F7D0E2DC49DE10015507D /* PersonOrderLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418F7D0C2DC49DE10015507D /* PersonOrderLocation.swift */; };
+		418F7D112DC49DF00015507D /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418F7D0F2DC49DEF0015507D /* Order.swift */; };
+		418F7D142DC49E030015507D /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418F7D122DC49E030015507D /* LocationManager.swift */; };
+		418F7D162DC49E230015507D /* OrderDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418F7D152DC49E210015507D /* OrderDetailView.swift */; };
+		418F7D182DC49E930015507D /* OrdersViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418F7CFD2DC498660015507D /* OrdersViewModel.swift */; };
+		418F7D192DC49EAA0015507D /* MapOrdersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418F7D002DC4989A0015507D /* MapOrdersView.swift */; };
+		418F7D1B2DC4A2500015507D /* CustomMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418F7D1A2DC4A24F0015507D /* CustomMapView.swift */; };
+		418F7D1D2DC4AE060015507D /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418F7D1C2DC4AE050015507D /* SplashView.swift */; };
+		418F7D392DC53C330015507D /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418F7D382DC53C2F0015507D /* Item.swift */; };
+		418F7D3B2DC53CAF0015507D /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418F7D3A2DC53CA50015507D /* DataService.swift */; };
+		418F7D3F2DC53D0D0015507D /* GroceryListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418F7D3E2DC53D060015507D /* GroceryListViewModel.swift */; };
+		418F7D412DC53D470015507D /* StoreDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418F7D402DC53D430015507D /* StoreDetailView.swift */; };
+		418F7D432DC53D560015507D /* GroceryListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418F7D422DC53D520015507D /* GroceryListView.swift */; };
+		418F7D452DC53FD10015507D /* stores_name.json in Resources */ = {isa = PBXBuildFile; fileRef = 418F7D442DC53FD10015507D /* stores_name.json */; };
+		418F7D462DC53FD10015507D /* stores_name.json in Resources */ = {isa = PBXBuildFile; fileRef = 418F7D442DC53FD10015507D /* stores_name.json */; };
+		418F7D482DC53FDC0015507D /* items.json in Resources */ = {isa = PBXBuildFile; fileRef = 418F7D472DC53FDC0015507D /* items.json */; };
+		418F7D492DC53FDC0015507D /* items.json in Resources */ = {isa = PBXBuildFile; fileRef = 418F7D472DC53FDC0015507D /* items.json */; };
+		418F7D4B2DC54CA60015507D /* FeaturedStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418F7D4A2DC54C9D0015507D /* FeaturedStore.swift */; };
+		418F7D4D2DC54CD70015507D /* StoreCarousalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418F7D4C2DC54CD10015507D /* StoreCarousalView.swift */; };
+		418F7D4F2DC54F410015507D /* StoreGroceryListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418F7D4E2DC54F2F0015507D /* StoreGroceryListView.swift */; };
+		418F7D512DC554020015507D /* StoreCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418F7D502DC553F50015507D /* StoreCellView.swift */; };
+		418F7D532DC5541A0015507D /* StoreGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418F7D522DC554150015507D /* StoreGridView.swift */; };
+		418F7D572DC56FE50015507D /* GroceryDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418F7D562DC56FDE0015507D /* GroceryDetailView.swift */; };
+		418F7D5B2DC757200015507D /* order_6E1A.json in Resources */ = {isa = PBXBuildFile; fileRef = 418F7D5A2DC757200015507D /* order_6E1A.json */; };
+		418F7D932DC81CA90015507D /* order_3C4D.json in Resources */ = {isa = PBXBuildFile; fileRef = 418F7D912DC81CA90015507D /* order_3C4D.json */; };
+		418F7D942DC81CA90015507D /* order_5E6F.json in Resources */ = {isa = PBXBuildFile; fileRef = 418F7D922DC81CA90015507D /* order_5E6F.json */; };
+		418F7D952DC81CA90015507D /* order_1A2B.json in Resources */ = {isa = PBXBuildFile; fileRef = 418F7D902DC81CA90015507D /* order_1A2B.json */; };
+		418F7D992DC82D060015507D /* SortOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418F7D982DC82D010015507D /* SortOption.swift */; };
+		418F7DD02DCB458B0015507D /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418F7DCF2DCB45860015507D /* UserViewModel.swift */; };
+		418F7DEC2DDD19E70015507D /* AddSurplusItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418F7DEB2DDD19DD0015507D /* AddSurplusItemView.swift */; };
+		418F7DED2DDD3D2E0015507D /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418F7DCE2DCB07870015507D /* ChatView.swift */; };
+		418F7DEF2DDD43CD0015507D /* ChatDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418F7DEE2DDD43C80015507D /* ChatDetailView.swift */; };
+		418F7E0B2DDE679D0015507D /* ThemeSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418F7E0A2DDE67980015507D /* ThemeSetting.swift */; };
+		418F7E0D2DDE68300015507D /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418F7E0C2DDE682B0015507D /* SettingView.swift */; };
+		419C70492DDFD3AC001C6AD8 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419C70482DDFD39C001C6AD8 /* APIClient.swift */; };
+		419C704B2DDFD42B001C6AD8 /* GroceryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419C704A2DDFD421001C6AD8 /* GroceryItem.swift */; };
+		419C704D2DE02E46001C6AD8 /* APIModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419C704C2DE02E39001C6AD8 /* APIModels.swift */; };
+		419C704F2DE0330A001C6AD8 /* basketEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419C704E2DE03303001C6AD8 /* basketEntry.swift */; };
+		41BDA6902DE6E66700E6682B /* StoreItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BDA68F2DE6E66700E6682B /* StoreItem.swift */; };
+		41BDA6942DE6EF5C00E6682B /* StoreDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BDA6932DE6EF4E00E6682B /* StoreDetailViewModel.swift */; };
+		41BDA6962DE7750600E6682B /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BDA6952DE7750600E6682B /* LoginView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		418F7C892DC486800015507D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 418F7C722DC4867E0015507D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 418F7C792DC4867E0015507D;
+			remoteInfo = NeiCo;
+		};
+		418F7C932DC486800015507D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 418F7C722DC4867E0015507D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 418F7C792DC4867E0015507D;
+			remoteInfo = NeiCo;
+		};
+		418F7CD22DC491CB0015507D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 418F7C722DC4867E0015507D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 418F7CC42DC491C90015507D;
+			remoteInfo = Neico_ios;
+		};
+		418F7CDC2DC491CB0015507D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 418F7C722DC4867E0015507D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 418F7CC42DC491C90015507D;
+			remoteInfo = Neico_ios;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		418F7C7A2DC4867E0015507D /* NeiCo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NeiCo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		418F7C882DC486800015507D /* NeiCoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NeiCoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		418F7C922DC486800015507D /* NeiCoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NeiCoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		418F7CA82DC4877D0015507D /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		418F7CAB2DC487B20015507D /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		418F7CAC2DC487CE0015507D /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		418F7CB42DC48AAA0015507D /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		418F7CB82DC48B4F0015507D /* MarketPlaceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketPlaceView.swift; sourceTree = "<group>"; };
+		418F7CBA2DC48B580015507D /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
+		418F7CBE2DC48CCA0015507D /* stores.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = stores.json; sourceTree = "<group>"; };
+		418F7CC52DC491C90015507D /* Neico_ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Neico_ios.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		418F7CD12DC491CB0015507D /* Neico_iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Neico_iosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		418F7CDB2DC491CB0015507D /* Neico_iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Neico_iosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		418F7CFD2DC498660015507D /* OrdersViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersViewModel.swift; sourceTree = "<group>"; };
+		418F7D002DC4989A0015507D /* MapOrdersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapOrdersView.swift; sourceTree = "<group>"; };
+		418F7D092DC49C8F0015507D /* OrdersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersView.swift; sourceTree = "<group>"; };
+		418F7D0C2DC49DE10015507D /* PersonOrderLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonOrderLocation.swift; sourceTree = "<group>"; };
+		418F7D0F2DC49DEF0015507D /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		418F7D122DC49E030015507D /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		418F7D152DC49E210015507D /* OrderDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderDetailView.swift; sourceTree = "<group>"; };
+		418F7D1A2DC4A24F0015507D /* CustomMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomMapView.swift; sourceTree = "<group>"; };
+		418F7D1C2DC4AE050015507D /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		418F7D382DC53C2F0015507D /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		418F7D3A2DC53CA50015507D /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		418F7D3E2DC53D060015507D /* GroceryListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryListViewModel.swift; sourceTree = "<group>"; };
+		418F7D402DC53D430015507D /* StoreDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreDetailView.swift; sourceTree = "<group>"; };
+		418F7D422DC53D520015507D /* GroceryListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryListView.swift; sourceTree = "<group>"; };
+		418F7D442DC53FD10015507D /* stores_name.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = stores_name.json; sourceTree = "<group>"; };
+		418F7D472DC53FDC0015507D /* items.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = items.json; sourceTree = "<group>"; };
+		418F7D4A2DC54C9D0015507D /* FeaturedStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedStore.swift; sourceTree = "<group>"; };
+		418F7D4C2DC54CD10015507D /* StoreCarousalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreCarousalView.swift; sourceTree = "<group>"; };
+		418F7D4E2DC54F2F0015507D /* StoreGroceryListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreGroceryListView.swift; sourceTree = "<group>"; };
+		418F7D502DC553F50015507D /* StoreCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreCellView.swift; sourceTree = "<group>"; };
+		418F7D522DC554150015507D /* StoreGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreGridView.swift; sourceTree = "<group>"; };
+		418F7D562DC56FDE0015507D /* GroceryDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryDetailView.swift; sourceTree = "<group>"; };
+		418F7D5A2DC757200015507D /* order_6E1A.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = order_6E1A.json; sourceTree = "<group>"; };
+		418F7D902DC81CA90015507D /* order_1A2B.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = order_1A2B.json; sourceTree = "<group>"; };
+		418F7D912DC81CA90015507D /* order_3C4D.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = order_3C4D.json; sourceTree = "<group>"; };
+		418F7D922DC81CA90015507D /* order_5E6F.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = order_5E6F.json; sourceTree = "<group>"; };
+		418F7D982DC82D010015507D /* SortOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortOption.swift; sourceTree = "<group>"; };
+		418F7DCE2DCB07870015507D /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		418F7DCF2DCB45860015507D /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
+		418F7DEB2DDD19DD0015507D /* AddSurplusItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSurplusItemView.swift; sourceTree = "<group>"; };
+		418F7DEE2DDD43C80015507D /* ChatDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatDetailView.swift; sourceTree = "<group>"; };
+		418F7E0A2DDE67980015507D /* ThemeSetting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeSetting.swift; sourceTree = "<group>"; };
+		418F7E0C2DDE682B0015507D /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
+		419C70482DDFD39C001C6AD8 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		419C704A2DDFD421001C6AD8 /* GroceryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryItem.swift; sourceTree = "<group>"; };
+		419C704C2DE02E39001C6AD8 /* APIModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIModels.swift; sourceTree = "<group>"; };
+		419C704E2DE03303001C6AD8 /* basketEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = basketEntry.swift; sourceTree = "<group>"; };
+		41BDA68F2DE6E66700E6682B /* StoreItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreItem.swift; sourceTree = "<group>"; };
+		41BDA6932DE6EF4E00E6682B /* StoreDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreDetailViewModel.swift; sourceTree = "<group>"; };
+		41BDA6952DE7750600E6682B /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		418F7CED2DC492140015507D /* Exceptions for "NeiCo" folder in "Neico_ios" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				NeiCoApp.swift,
+			);
+			target = 418F7CC42DC491C90015507D /* Neico_ios */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		418F7C7C2DC4867E0015507D /* NeiCo */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				418F7CED2DC492140015507D /* Exceptions for "NeiCo" folder in "Neico_ios" target */,
+			);
+			path = NeiCo;
+			sourceTree = "<group>";
+		};
+		418F7C8B2DC486800015507D /* NeiCoTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = NeiCoTests;
+			sourceTree = "<group>";
+		};
+		418F7C952DC486800015507D /* NeiCoUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = NeiCoUITests;
+			sourceTree = "<group>";
+		};
+		418F7CC62DC491C90015507D /* Neico_ios */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Neico_ios;
+			sourceTree = "<group>";
+		};
+		418F7CD42DC491CB0015507D /* Neico_iosTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Neico_iosTests;
+			sourceTree = "<group>";
+		};
+		418F7CDE2DC491CB0015507D /* Neico_iosUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Neico_iosUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		418F7C772DC4867E0015507D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		418F7C852DC486800015507D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		418F7C8F2DC486800015507D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		418F7CC22DC491C90015507D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		418F7CCE2DC491CB0015507D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		418F7CD82DC491CB0015507D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		418F7C712DC4867E0015507D = {
+			isa = PBXGroup;
+			children = (
+				418F7D902DC81CA90015507D /* order_1A2B.json */,
+				418F7D912DC81CA90015507D /* order_3C4D.json */,
+				418F7D922DC81CA90015507D /* order_5E6F.json */,
+				418F7D5A2DC757200015507D /* order_6E1A.json */,
+				418F7D472DC53FDC0015507D /* items.json */,
+				418F7D442DC53FD10015507D /* stores_name.json */,
+				418F7CBE2DC48CCA0015507D /* stores.json */,
+				418F7CAA2DC487A70015507D /* ViewModels */,
+				418F7CA72DC487260015507D /* Services */,
+				418F7CA62DC487160015507D /* Views */,
+				418F7CA52DC4870F0015507D /* Models */,
+				418F7C7C2DC4867E0015507D /* NeiCo */,
+				418F7C8B2DC486800015507D /* NeiCoTests */,
+				418F7C952DC486800015507D /* NeiCoUITests */,
+				418F7CC62DC491C90015507D /* Neico_ios */,
+				418F7CD42DC491CB0015507D /* Neico_iosTests */,
+				418F7CDE2DC491CB0015507D /* Neico_iosUITests */,
+				418F7C7B2DC4867E0015507D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		418F7C7B2DC4867E0015507D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				418F7C7A2DC4867E0015507D /* NeiCo.app */,
+				418F7C882DC486800015507D /* NeiCoTests.xctest */,
+				418F7C922DC486800015507D /* NeiCoUITests.xctest */,
+				418F7CC52DC491C90015507D /* Neico_ios.app */,
+				418F7CD12DC491CB0015507D /* Neico_iosTests.xctest */,
+				418F7CDB2DC491CB0015507D /* Neico_iosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		418F7CA52DC4870F0015507D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				41BDA68F2DE6E66700E6682B /* StoreItem.swift */,
+				419C704E2DE03303001C6AD8 /* basketEntry.swift */,
+				419C704A2DDFD421001C6AD8 /* GroceryItem.swift */,
+				418F7D4A2DC54C9D0015507D /* FeaturedStore.swift */,
+				418F7D382DC53C2F0015507D /* Item.swift */,
+				418F7D0F2DC49DEF0015507D /* Order.swift */,
+				418F7D0C2DC49DE10015507D /* PersonOrderLocation.swift */,
+				418F7CA82DC4877D0015507D /* Store.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		418F7CA62DC487160015507D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				41BDA6952DE7750600E6682B /* LoginView.swift */,
+				418F7E0C2DDE682B0015507D /* SettingView.swift */,
+				418F7DEE2DDD43C80015507D /* ChatDetailView.swift */,
+				418F7DEB2DDD19DD0015507D /* AddSurplusItemView.swift */,
+				418F7DCE2DCB07870015507D /* ChatView.swift */,
+				418F7D982DC82D010015507D /* SortOption.swift */,
+				418F7D562DC56FDE0015507D /* GroceryDetailView.swift */,
+				418F7D522DC554150015507D /* StoreGridView.swift */,
+				418F7D502DC553F50015507D /* StoreCellView.swift */,
+				418F7D4E2DC54F2F0015507D /* StoreGroceryListView.swift */,
+				418F7D4C2DC54CD10015507D /* StoreCarousalView.swift */,
+				418F7D422DC53D520015507D /* GroceryListView.swift */,
+				418F7D402DC53D430015507D /* StoreDetailView.swift */,
+				418F7D1C2DC4AE050015507D /* SplashView.swift */,
+				418F7D1A2DC4A24F0015507D /* CustomMapView.swift */,
+				418F7D152DC49E210015507D /* OrderDetailView.swift */,
+				418F7D092DC49C8F0015507D /* OrdersView.swift */,
+				418F7D002DC4989A0015507D /* MapOrdersView.swift */,
+				418F7CBA2DC48B580015507D /* AccountView.swift */,
+				418F7CB82DC48B4F0015507D /* MarketPlaceView.swift */,
+				418F7CB42DC48AAA0015507D /* MainTabView.swift */,
+				418F7CAC2DC487CE0015507D /* HomeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		418F7CA72DC487260015507D /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				419C704C2DE02E39001C6AD8 /* APIModels.swift */,
+				419C70482DDFD39C001C6AD8 /* APIClient.swift */,
+				418F7E0A2DDE67980015507D /* ThemeSetting.swift */,
+				418F7D3A2DC53CA50015507D /* DataService.swift */,
+				418F7D122DC49E030015507D /* LocationManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		418F7CAA2DC487A70015507D /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				41BDA6932DE6EF4E00E6682B /* StoreDetailViewModel.swift */,
+				418F7DCF2DCB45860015507D /* UserViewModel.swift */,
+				418F7D3E2DC53D060015507D /* GroceryListViewModel.swift */,
+				418F7CFD2DC498660015507D /* OrdersViewModel.swift */,
+				418F7CAB2DC487B20015507D /* HomeViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		418F7C792DC4867E0015507D /* NeiCo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 418F7C9C2DC486800015507D /* Build configuration list for PBXNativeTarget "NeiCo" */;
+			buildPhases = (
+				418F7C762DC4867E0015507D /* Sources */,
+				418F7C772DC4867E0015507D /* Frameworks */,
+				418F7C782DC4867E0015507D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				418F7C7C2DC4867E0015507D /* NeiCo */,
+			);
+			name = NeiCo;
+			packageProductDependencies = (
+			);
+			productName = NeiCo;
+			productReference = 418F7C7A2DC4867E0015507D /* NeiCo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		418F7C872DC486800015507D /* NeiCoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 418F7C9F2DC486800015507D /* Build configuration list for PBXNativeTarget "NeiCoTests" */;
+			buildPhases = (
+				418F7C842DC486800015507D /* Sources */,
+				418F7C852DC486800015507D /* Frameworks */,
+				418F7C862DC486800015507D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				418F7C8A2DC486800015507D /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				418F7C8B2DC486800015507D /* NeiCoTests */,
+			);
+			name = NeiCoTests;
+			packageProductDependencies = (
+			);
+			productName = NeiCoTests;
+			productReference = 418F7C882DC486800015507D /* NeiCoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		418F7C912DC486800015507D /* NeiCoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 418F7CA22DC486800015507D /* Build configuration list for PBXNativeTarget "NeiCoUITests" */;
+			buildPhases = (
+				418F7C8E2DC486800015507D /* Sources */,
+				418F7C8F2DC486800015507D /* Frameworks */,
+				418F7C902DC486800015507D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				418F7C942DC486800015507D /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				418F7C952DC486800015507D /* NeiCoUITests */,
+			);
+			name = NeiCoUITests;
+			packageProductDependencies = (
+			);
+			productName = NeiCoUITests;
+			productReference = 418F7C922DC486800015507D /* NeiCoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		418F7CC42DC491C90015507D /* Neico_ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 418F7CE32DC491CB0015507D /* Build configuration list for PBXNativeTarget "Neico_ios" */;
+			buildPhases = (
+				418F7CC12DC491C90015507D /* Sources */,
+				418F7CC22DC491C90015507D /* Frameworks */,
+				418F7CC32DC491C90015507D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				418F7CC62DC491C90015507D /* Neico_ios */,
+			);
+			name = Neico_ios;
+			packageProductDependencies = (
+			);
+			productName = Neico_ios;
+			productReference = 418F7CC52DC491C90015507D /* Neico_ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+		418F7CD02DC491CB0015507D /* Neico_iosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 418F7CE62DC491CB0015507D /* Build configuration list for PBXNativeTarget "Neico_iosTests" */;
+			buildPhases = (
+				418F7CCD2DC491CB0015507D /* Sources */,
+				418F7CCE2DC491CB0015507D /* Frameworks */,
+				418F7CCF2DC491CB0015507D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				418F7CD32DC491CB0015507D /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				418F7CD42DC491CB0015507D /* Neico_iosTests */,
+			);
+			name = Neico_iosTests;
+			packageProductDependencies = (
+			);
+			productName = Neico_iosTests;
+			productReference = 418F7CD12DC491CB0015507D /* Neico_iosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		418F7CDA2DC491CB0015507D /* Neico_iosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 418F7CE92DC491CB0015507D /* Build configuration list for PBXNativeTarget "Neico_iosUITests" */;
+			buildPhases = (
+				418F7CD72DC491CB0015507D /* Sources */,
+				418F7CD82DC491CB0015507D /* Frameworks */,
+				418F7CD92DC491CB0015507D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				418F7CDD2DC491CB0015507D /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				418F7CDE2DC491CB0015507D /* Neico_iosUITests */,
+			);
+			name = Neico_iosUITests;
+			packageProductDependencies = (
+			);
+			productName = Neico_iosUITests;
+			productReference = 418F7CDB2DC491CB0015507D /* Neico_iosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		418F7C722DC4867E0015507D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					418F7C792DC4867E0015507D = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					418F7C872DC486800015507D = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 418F7C792DC4867E0015507D;
+					};
+					418F7C912DC486800015507D = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 418F7C792DC4867E0015507D;
+					};
+					418F7CC42DC491C90015507D = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					418F7CD02DC491CB0015507D = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 418F7CC42DC491C90015507D;
+					};
+					418F7CDA2DC491CB0015507D = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 418F7CC42DC491C90015507D;
+					};
+				};
+			};
+			buildConfigurationList = 418F7C752DC4867E0015507D /* Build configuration list for PBXProject "NeiCo" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 418F7C712DC4867E0015507D;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 418F7C7B2DC4867E0015507D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				418F7C792DC4867E0015507D /* NeiCo */,
+				418F7C872DC486800015507D /* NeiCoTests */,
+				418F7C912DC486800015507D /* NeiCoUITests */,
+				418F7CC42DC491C90015507D /* Neico_ios */,
+				418F7CD02DC491CB0015507D /* Neico_iosTests */,
+				418F7CDA2DC491CB0015507D /* Neico_iosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		418F7C782DC4867E0015507D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				418F7D482DC53FDC0015507D /* items.json in Resources */,
+				418F7CBF2DC48CCA0015507D /* stores.json in Resources */,
+				418F7D462DC53FD10015507D /* stores_name.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		418F7C862DC486800015507D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		418F7C902DC486800015507D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		418F7CC32DC491C90015507D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				418F7D492DC53FDC0015507D /* items.json in Resources */,
+				418F7CF62DC494C80015507D /* stores.json in Resources */,
+				418F7D5B2DC757200015507D /* order_6E1A.json in Resources */,
+				418F7D452DC53FD10015507D /* stores_name.json in Resources */,
+				418F7D932DC81CA90015507D /* order_3C4D.json in Resources */,
+				418F7D942DC81CA90015507D /* order_5E6F.json in Resources */,
+				418F7D952DC81CA90015507D /* order_1A2B.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		418F7CCF2DC491CB0015507D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		418F7CD92DC491CB0015507D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		418F7C762DC4867E0015507D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		418F7C842DC486800015507D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		418F7C8E2DC486800015507D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		418F7CC12DC491C90015507D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				418F7D392DC53C330015507D /* Item.swift in Sources */,
+				418F7D0B2DC49C9F0015507D /* OrdersView.swift in Sources */,
+				418F7E0B2DDE679D0015507D /* ThemeSetting.swift in Sources */,
+				418F7D3F2DC53D0D0015507D /* GroceryListViewModel.swift in Sources */,
+				418F7E0D2DDE68300015507D /* SettingView.swift in Sources */,
+				418F7CF02DC4929E0015507D /* AccountView.swift in Sources */,
+				418F7D432DC53D560015507D /* GroceryListView.swift in Sources */,
+				418F7CF32DC492A90015507D /* MainTabView.swift in Sources */,
+				41BDA6962DE7750600E6682B /* LoginView.swift in Sources */,
+				418F7D532DC5541A0015507D /* StoreGridView.swift in Sources */,
+				418F7DEF2DDD43CD0015507D /* ChatDetailView.swift in Sources */,
+				418F7CF42DC492AD0015507D /* HomeView.swift in Sources */,
+				418F7CF12DC492A20015507D /* MarketPlaceView.swift in Sources */,
+				418F7D1B2DC4A2500015507D /* CustomMapView.swift in Sources */,
+				418F7DED2DDD3D2E0015507D /* ChatView.swift in Sources */,
+				418F7CF52DC492BC0015507D /* Store.swift in Sources */,
+				419C704D2DE02E46001C6AD8 /* APIModels.swift in Sources */,
+				418F7D512DC554020015507D /* StoreCellView.swift in Sources */,
+				418F7DEC2DDD19E70015507D /* AddSurplusItemView.swift in Sources */,
+				419C704F2DE0330A001C6AD8 /* basketEntry.swift in Sources */,
+				418F7D4B2DC54CA60015507D /* FeaturedStore.swift in Sources */,
+				41BDA6902DE6E66700E6682B /* StoreItem.swift in Sources */,
+				418F7D0E2DC49DE10015507D /* PersonOrderLocation.swift in Sources */,
+				418F7D142DC49E030015507D /* LocationManager.swift in Sources */,
+				418F7D992DC82D060015507D /* SortOption.swift in Sources */,
+				418F7D182DC49E930015507D /* OrdersViewModel.swift in Sources */,
+				419C70492DDFD3AC001C6AD8 /* APIClient.swift in Sources */,
+				418F7D572DC56FE50015507D /* GroceryDetailView.swift in Sources */,
+				419C704B2DDFD42B001C6AD8 /* GroceryItem.swift in Sources */,
+				418F7D4D2DC54CD70015507D /* StoreCarousalView.swift in Sources */,
+				418F7D3B2DC53CAF0015507D /* DataService.swift in Sources */,
+				418F7D4F2DC54F410015507D /* StoreGroceryListView.swift in Sources */,
+				418F7DD02DCB458B0015507D /* UserViewModel.swift in Sources */,
+				41BDA6942DE6EF5C00E6682B /* StoreDetailViewModel.swift in Sources */,
+				418F7D1D2DC4AE060015507D /* SplashView.swift in Sources */,
+				418F7D412DC53D470015507D /* StoreDetailView.swift in Sources */,
+				418F7D112DC49DF00015507D /* Order.swift in Sources */,
+				418F7D192DC49EAA0015507D /* MapOrdersView.swift in Sources */,
+				418F7CEE2DC492930015507D /* HomeViewModel.swift in Sources */,
+				418F7D162DC49E230015507D /* OrderDetailView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		418F7CCD2DC491CB0015507D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		418F7CD72DC491CB0015507D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		418F7C8A2DC486800015507D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 418F7C792DC4867E0015507D /* NeiCo */;
+			targetProxy = 418F7C892DC486800015507D /* PBXContainerItemProxy */;
+		};
+		418F7C942DC486800015507D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 418F7C792DC4867E0015507D /* NeiCo */;
+			targetProxy = 418F7C932DC486800015507D /* PBXContainerItemProxy */;
+		};
+		418F7CD32DC491CB0015507D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 418F7CC42DC491C90015507D /* Neico_ios */;
+			targetProxy = 418F7CD22DC491CB0015507D /* PBXContainerItemProxy */;
+		};
+		418F7CDD2DC491CB0015507D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 418F7CC42DC491C90015507D /* Neico_ios */;
+			targetProxy = 418F7CDC2DC491CB0015507D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		418F7C9A2DC486800015507D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 8292DPA286;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		418F7C9B2DC486800015507D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 8292DPA286;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		418F7C9D2DC486800015507D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = NeiCo/NeiCo.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8292DPA286;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = goshtasbsh.NeiCo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		418F7C9E2DC486800015507D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = NeiCo/NeiCo.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8292DPA286;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = goshtasbsh.NeiCo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		418F7CA02DC486800015507D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8292DPA286;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = goshtasbsh.NeiCoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NeiCo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NeiCo";
+			};
+			name = Debug;
+		};
+		418F7CA12DC486800015507D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8292DPA286;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = goshtasbsh.NeiCoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NeiCo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NeiCo";
+			};
+			name = Release;
+		};
+		418F7CA32DC486800015507D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8292DPA286;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = goshtasbsh.NeiCoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = NeiCo;
+			};
+			name = Debug;
+		};
+		418F7CA42DC486800015507D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8292DPA286;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = goshtasbsh.NeiCoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = NeiCo;
+			};
+			name = Release;
+		};
+		418F7CE42DC491CB0015507D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8292DPA286;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Neico-ios-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need your location to show earby orders.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "goshtasbsh.Neico-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		418F7CE52DC491CB0015507D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8292DPA286;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Neico-ios-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need your location to show earby orders.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "goshtasbsh.Neico-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		418F7CE72DC491CB0015507D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8292DPA286;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "goshtasbsh.Neico-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Neico_ios.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Neico_ios";
+			};
+			name = Debug;
+		};
+		418F7CE82DC491CB0015507D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8292DPA286;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "goshtasbsh.Neico-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Neico_ios.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Neico_ios";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		418F7CEA2DC491CB0015507D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8292DPA286;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "goshtasbsh.Neico-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Neico_ios;
+			};
+			name = Debug;
+		};
+		418F7CEB2DC491CB0015507D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8292DPA286;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "goshtasbsh.Neico-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Neico_ios;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		418F7C752DC4867E0015507D /* Build configuration list for PBXProject "NeiCo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				418F7C9A2DC486800015507D /* Debug */,
+				418F7C9B2DC486800015507D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		418F7C9C2DC486800015507D /* Build configuration list for PBXNativeTarget "NeiCo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				418F7C9D2DC486800015507D /* Debug */,
+				418F7C9E2DC486800015507D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		418F7C9F2DC486800015507D /* Build configuration list for PBXNativeTarget "NeiCoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				418F7CA02DC486800015507D /* Debug */,
+				418F7CA12DC486800015507D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		418F7CA22DC486800015507D /* Build configuration list for PBXNativeTarget "NeiCoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				418F7CA32DC486800015507D /* Debug */,
+				418F7CA42DC486800015507D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		418F7CE32DC491CB0015507D /* Build configuration list for PBXNativeTarget "Neico_ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				418F7CE42DC491CB0015507D /* Debug */,
+				418F7CE52DC491CB0015507D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		418F7CE62DC491CB0015507D /* Build configuration list for PBXNativeTarget "Neico_iosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				418F7CE72DC491CB0015507D /* Debug */,
+				418F7CE82DC491CB0015507D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		418F7CE92DC491CB0015507D /* Build configuration list for PBXNativeTarget "Neico_iosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				418F7CEA2DC491CB0015507D /* Debug */,
+				418F7CEB2DC491CB0015507D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 418F7C722DC4867E0015507D /* Project object */;
+}
